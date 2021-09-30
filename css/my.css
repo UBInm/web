@@ -6,7 +6,14 @@ body {
     margin-bottom: 0px;
 	background-color: rgb(165, 165, 165);
 	
+	
 }
+
+#masthead{
+	background-image: url("images/wave.jpg");
+}
+
+
 
 h1,h2{
 
@@ -20,6 +27,9 @@ h2,p{
 .flex-nav {
 	color: rgb(255, 255, 255);
     display: flex;
+	padding: 20px;
+	height: 30px;
+	font-size: large;
 	justify-content: space-around;
 	background-image: linear-gradient(180deg, rgb(59, 59, 59), rgb(0, 0, 0));
 	
@@ -58,7 +68,8 @@ h5{
 
 #footer {
     text-align: center;
-	font-size: x-large;
+	font-size: xx-large;
+	padding: 10px;
     height: 100px;
     color:rgb(255, 255, 255);
     background-image: linear-gradient(#111, #555);
@@ -68,3 +79,8 @@ h5{
 	column-count: 3;
 	column-gap: 40px;
 }
+
+nav a{
+	color: rgb(255, 255, 255);
+}
+
